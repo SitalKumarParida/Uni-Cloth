@@ -1,0 +1,128 @@
+/* Layout container */
+.page {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left image panel */
+.leftPanel {
+  flex: 1;
+  background: url("https://img.freepik.com/free-photo/portrait-smiling-beautiful-girl-her-handsome-boyfriend-laughing_158538-4885.jpg?ga=GA1.1.1660874654.1735040715&semt=ais_hybrid&w=740")
+    no-repeat center center/cover;
+}
+
+/* Right login form panel with gradient brown background */
+.rightPanel {
+  flex: 1;
+  background: linear-gradient(to bottom right, #a47148, #6e4b32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Login form container with glass effect */
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px 50px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Heading */
+.heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+.input:focus {
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+/* Submit button */
+.button {
+  width: 100%;
+  padding: 14px;
+  background-color: #e0a96d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #d68f4e;
+}
+
+/* Switch login/signup text */
+.toggleText {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #eee;
+}
+
+.toggleText span {
+  color: #ffcc80;
+  cursor: pointer;
+}
+
+/* Forgot password link */
+.forgotLink {
+  color: #ffbdbd;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Password input wrapper to hold eye icon */
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Eye icon for toggling password */
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}

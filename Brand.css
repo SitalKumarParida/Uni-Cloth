@@ -1,0 +1,83 @@
+/* Brand.css */
+.brand-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.brand-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.brand-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.brand-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.brand-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.brand-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.brand-card p {
+  font-size: 16px;
+  color: #444;
+}
+
+.brand-card button {
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.brand-card button:hover {
+  background-color: #195ec9;
+}
+
+.go-to-cart-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.go-to-cart-btn:hover {
+  background-color: #218838;
+}

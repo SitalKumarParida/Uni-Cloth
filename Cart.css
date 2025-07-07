@@ -1,0 +1,325 @@
+/* Main container */
+.cart-page {
+  font-family: "Arial, sans-serif";
+  background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home button */
+.home-button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  padding: 10px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Cart title */
+.cart-title {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Messages */
+.save-message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.save-message.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.save-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Empty cart */
+.empty-cart {
+  text-align: center;
+  color: #999;
+}
+
+/* Cart items */
+.cart-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.remove-item-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Cart summary */
+.cart-summary {
+  margin-top: 20px;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.clear-cart-button {
+  margin-right: 10px;
+  background-color: #f39c12;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Checkout form */
+.checkout-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.checkout-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.checkout-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.pay-now-button {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pay-now-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Order history */
+.order-history {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.order-items-list {
+  padding-left: 20px;
+}
+
+.shipping-address {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+.cancel-order-button {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.refund-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.remove-history-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+/* UPI form */
+.upi-form {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e8f6f3;
+  border-radius: 6px;
+}
+
+.upi-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.submit-upi-button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-upi-button {
+  margin-left: 10px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Address section */
+.address-container {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.address-list {
+  list-style-type: none;
+  padding-left: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.address-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.address-item.selected {
+  background-color: #d0f0d0;
+  border: 2px solid #2ecc71;
+}
+
+.add-address-button {
+  background-color: #2980b9;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto 0;
+}
+
+/* Address form */
+.address-input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.address-form-buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.save-address-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cancel-address-button {
+  background-color: #c0392b;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
